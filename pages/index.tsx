@@ -45,10 +45,15 @@ const Home: NextPage = () => {
         ) : (
           posts?.map((post) => (
             <Fragment key={post.id}>
-              <div>id: {post.id}</div>
-              <div>제목: {post.title}</div>
-              <div>작성자: {post.author}</div>
-              <div>내용: {post.description.slice(0, 100)}...</div>
+              <br />
+              <Link href={`/post/${post.id}`}>
+                <a>
+                  <div>id: {post.id}</div>
+                  <div>제목: {post.title}</div>
+                  <div>작성자: {post.author}</div>
+                  <div>내용: {post.description.slice(0, 100)}...</div>
+                </a>
+              </Link>
               <hr />
             </Fragment>
           ))
