@@ -34,6 +34,9 @@ const Home: NextPage = () => {
         <Link href="/parallel">
           <a style={{ marginRight: "1rem" }}>Parallel Queries Page</a>
         </Link>
+        <Link href="/dependent">
+          <a style={{ marginRight: "1rem" }}>Dependent Queries Page</a>
+        </Link>
       </nav>
       <br />
       <div>
