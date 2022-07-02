@@ -45,6 +45,9 @@ const Home: NextPage = () => {
         <Link href="/paginated">
           <a style={{ marginRight: "1rem" }}>Pagintaed Queries Page</a>
         </Link>
+        <Link href="/infinite">
+          <a style={{ marginRight: "1rem" }}>Infinite Queries Page</a>
+        </Link>
       </nav>
       <br />
       <div>
